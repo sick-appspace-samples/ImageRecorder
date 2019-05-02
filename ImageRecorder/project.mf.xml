@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="ImageRecorder">
+        <crown name="ImageRecorder">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="licensed">false</meta>
+        <meta key="priority">low</meta>
+        <meta key="copy-protected">false</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="tags">Image,PicoCam,MidiCam</meta>
+        <entry path="pages" default="Viewer.msdd">
+            <file type="application/zip">Viewer.msdd</file>
+        </entry>
+        <entry path="scripts" default="ImageRecorder.lua">
+            <file type="text/x-lua">ImageRecorder.lua</file>
+        </entry>
+    </application>
+</manifest>
