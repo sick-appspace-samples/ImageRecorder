@@ -44,8 +44,7 @@ Image.Provider.RemoteCamera.setIPAddress(gCam, gCAM_IP)
 Image.Provider.RemoteCamera.setConfig(gCam, gConfig)
 
 -- Creating a viewer instance
-gViewer = View.create()
-gViewer:setID('viewer2D')
+gViewer = View.create('viewer2D1')
 
 --End of Global Scope-----------------------------------------------------------
 
