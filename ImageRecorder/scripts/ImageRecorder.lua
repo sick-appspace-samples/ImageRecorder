@@ -26,8 +26,7 @@ gViewer = View.create('viewer2D1')
 
 --Start of Function and Event Scope---------------------------------------------
 
---Declaration of the 'main' function as an entry point for the event loop
---@main()
+---Declaration of the 'main' function as an entry point for the event loop
 local function main()
   -- Preparing the record folder
   File.del(gRECORD_FOLDER)
@@ -54,9 +53,9 @@ end
 --Registration of the 'main' function to the 'Engine.OnStarted' event
 Script.register('Engine.OnStarted', main)
 
--- Definition of the callback function which is registered at the provider
--- img contains the image itself
--- sensorData contains additional information about the image
+---Definition of the callback function which is registered at the provider
+---img contains the image itself
+---sensorData contains additional information about the image
 local function handleNewImage(img, sensorData)
   -- clear view from earlier pictures
   gViewer:clear()
